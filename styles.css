@@ -75,6 +75,24 @@ img{max-width:100%;height:auto;display:block}
 .nav a{color:var(--muted);font-weight:600;font-size:14px}
 .nav a:hover{color:#fff}
 .header-cta{display:flex;align-items:center;gap:10px}
+.lang-switch{display:flex;align-items:center;gap:6px}
+.lang-switch button{
+  appearance:none;
+  border:1px solid var(--border);
+  background:rgba(255,255,255,0.05);
+  color:#fff;
+  border-radius:12px;
+  padding:8px 10px;
+  font-weight:900;
+  font-size:12px;
+  letter-spacing:0.06em;
+  cursor:pointer;
+}
+.lang-switch button[aria-pressed="true"]{
+  border-color:rgba(39,209,201,0.45);
+  background:rgba(39,209,201,0.14);
+}
+.lang-switch button:hover{background:rgba(255,255,255,0.08)}
 
 .btn{
   display:inline-flex;
