@@ -516,6 +516,18 @@ details p{margin:10px 0 0;color:var(--muted)}
   grid-template-columns:1fr;
   gap:12px;
 }
+.about-ic{
+  width:56px;
+  height:56px;
+  border-radius:18px;
+  background:rgba(255,184,0,0.16);
+  border:1px solid rgba(255,184,0,0.26);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin-bottom:10px;
+  box-shadow:0 12px 26px rgba(255,184,0,0.12);
+}
 .about-card{
   border:1px solid rgba(11,18,32,0.10);
   background:#fff;
@@ -525,6 +537,12 @@ details p{margin:10px 0 0;color:var(--muted)}
 }
 .about-card h3{margin:0 0 8px;font-size:18px}
 .about-card p{margin:0;color:var(--muted)}
+
+.icon{
+  width:30px;
+  height:30px;
+  display:block;
+}
 
 .benefits{
   display:grid;
@@ -544,6 +562,9 @@ details p{margin:10px 0 0;color:var(--muted)}
   border:1px solid rgba(255,184,0,0.30);
   box-shadow:0 12px 26px rgba(255,184,0,0.16);
   margin-bottom:10px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
 }
 .benefit h3{margin:0 0 6px;font-size:18px}
 .benefit p{margin:0;color:var(--muted)}
@@ -598,6 +619,34 @@ details p{margin:10px 0 0;color:var(--muted)}
   font-weight:1000;
 }
 
+.gallery-head{margin-top:18px}
+.h3{margin:0;font-size:18px;color:var(--accent2);letter-spacing:-0.01em}
+.scene-grid{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:12px;
+  margin-top:12px;
+}
+.scene{
+  border:1px solid rgba(11,18,32,0.10);
+  background:#fff;
+  border-radius:var(--radius2);
+  overflow:hidden;
+  box-shadow:0 12px 30px rgba(11,18,32,0.06);
+}
+.scene-svg{
+  width:100%;
+  height:auto;
+  display:block;
+}
+.scene-cap{
+  padding:12px 14px;
+  font-weight:900;
+  color:var(--accent2);
+  border-top:1px solid rgba(11,18,32,0.08);
+  background:rgba(245,247,250,0.70);
+}
+
 @media (min-width: 720px){
   .container{padding:0 22px}
   .hero{padding:44px 0 22px}
@@ -617,6 +666,7 @@ details p{margin:10px 0 0;color:var(--muted)}
   .testimonials{grid-template-columns:1fr;align-content:start}
   .quote-head{flex-direction:row;justify-content:space-between;align-items:center}
   .footer-grid{grid-template-columns:1.35fr 1fr 1fr 1fr}
+  .scene-grid{grid-template-columns:repeat(3, minmax(0,1fr))}
 }
 
 @media (min-width: 980px){
