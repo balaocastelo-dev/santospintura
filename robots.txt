@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://balaocastelo-dev.github.io/santospintura/sitemap.xml
+Sitemap: https://santospintura.vercel.app/sitemap.xml
