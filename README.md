@@ -1,25 +1,12 @@
-# Santos Pintura
+# Santos Pintura - Landing Page SEO Campinas
 
-Site institucional com SEO local para serviços de pintura residencial, comercial e prédios de até 3 andares.
+Pacote pronto para subir no repositório balaocastelo-dev/santospintura.
 
-## Recursos
+Inclui:
+- Home de alta conversão
+- 10 imagens WebP otimizadas
+- Páginas por serviço com SEO local
+- Sitemap e robots
+- CTAs para WhatsApp (19) 99002-6064
 
-- Página inicial altamente indexável
-- Orçamento rápido na hora
-- Upload de foto para prévia visual com IA
-- Páginas de serviços para SEO
-- Sitemap e robots.txt
-- Schema.org para LocalBusiness, serviços e FAQ
-
-## Rodar localmente
-
-```bash
-npm install
-npm run dev
-```
-
-Abra `http://localhost:3000`.
-
-## Publicação
-
-Recomendado publicar na Vercel. Configure o domínio principal e envie o sitemap para o Google Search Console.
+Para usar: copie todos os arquivos deste pacote para a raiz do repositório e faça commit/push.
