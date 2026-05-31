@@ -157,7 +157,7 @@ img{max-width:100%;height:auto;display:block}
   display:grid;
   gap:10px;
 }
-.mobile-nav a{
+.mobile-nav a:not(.btn){
   color:#fff;
   font-weight:900;
   padding:10px 10px;
@@ -166,9 +166,7 @@ img{max-width:100%;height:auto;display:block}
   border:1px solid rgba(255,255,255,0.10);
 }
 .mobile-nav a.btn{
-  padding:12px 14px;
-  background:unset;
-  border:unset;
+  width:100%;
 }
 .menu-open .mobile-nav{display:block}
 
